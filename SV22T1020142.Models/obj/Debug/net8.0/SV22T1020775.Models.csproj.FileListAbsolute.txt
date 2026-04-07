@@ -1,0 +1,33 @@
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/bin/Debug/net8.0/SV22T1020775.Models.deps.json
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/bin/Debug/net8.0/SV22T1020775.Models.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/bin/Debug/net8.0/SV22T1020775.Models.pdb
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.AssemblyInfoInputs.cache
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.AssemblyInfo.cs
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.csproj.CoreCompileInputs.cache
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/refint/SV22T1020775.Models.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.pdb
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/ref/SV22T1020775.Models.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/bin/Debug/net8.0/SV22T1020775.Models.deps.json
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/bin/Debug/net8.0/SV22T1020775.Models.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/bin/Debug/net8.0/SV22T1020775.Models.pdb
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.AssemblyInfoInputs.cache
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.AssemblyInfo.cs
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/refint/SV22T1020775.Models.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/SV22T1020775.Models.pdb
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.Models/obj/Debug/net8.0/ref/SV22T1020775.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\bin\Debug\net8.0\SV22T1020775.Models.deps.json
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\bin\Debug\net8.0\SV22T1020775.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\bin\Debug\net8.0\SV22T1020775.Models.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\SV22T1020775.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\SV22T1020775.Models.AssemblyInfoInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\SV22T1020775.Models.AssemblyInfo.cs
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\SV22T1020775.Models.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\SV22T1020775.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\refint\SV22T1020775.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\SV22T1020775.Models.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.Models\obj\Debug\net8.0\ref\SV22T1020775.Models.dll

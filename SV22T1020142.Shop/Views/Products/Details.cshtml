@@ -1,0 +1,103 @@
+﻿@model SV22T1020142.Shop.Models.ShopProductDetailsViewModel
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    var returnUrl = Context.Request.Path + Context.Request.QueryString;
+}
+
+@if (Model.Product == null)
+{
+    <div class="alert alert-danger">Không tìm thấy sản phẩm.</div>
+    return;
+}
+
+<div class="row g-4">
+    <div class="col-lg-5">
+        <div class="card border-0 shadow-sm rounded-4">
+            <div class="card-body">
+                <img src="@(string.IsNullOrWhiteSpace(Model.Product.Photo) ? "/images/no-image.png" : Model.Product.Photo)"
+                     class="img-fluid w-100"
+                     style="height:360px; object-fit:contain;"
+                     alt="@Model.Product.ProductName"
+                     onerror="this.src='/images/no-image.png'" />
+            </div>
+        </div>
+
+        @if (Model.Photos.Any())
+        {
+            <div class="d-flex flex-wrap gap-2 mt-3">
+                @foreach (var photo in Model.Photos)
+                {
+                    <img src="@photo.Photo"
+                         class="rounded-3 border bg-white p-1"
+                         style="width:72px;height:72px;object-fit:cover;"
+                         onerror="this.src='/images/no-image.png'" />
+                }
+            </div>
+        }
+    </div>
+
+    <div class="col-lg-7">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body">
+                <div class="text-muted small mb-2">Mã hàng: #@Model.Product.ProductID</div>
+                <h2 class="fw-bold mb-3">@Model.Product.ProductName</h2>
+
+                <div class="text-danger fw-bold fs-3 mb-3">
+                    @Model.Product.Price.ToString("N0") đ
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
+                    <div><strong>Đơn vị:</strong> @Model.Product.Unit</div>
+                    <div><strong>Loại hàng:</strong> @(string.IsNullOrWhiteSpace(Model.CategoryName) ? "Đang cập nhật" : Model.CategoryName)</div>
+                    <div><strong>Nhà cung cấp:</strong> @(string.IsNullOrWhiteSpace(Model.SupplierName) ? "Đang cập nhật" : Model.SupplierName)</div>
+                    <div><strong>Trạng thái:</strong> @(Model.Product.IsSelling ? "Đang kinh doanh" : "Tạm ngưng")</div>
+                </div>
+
+                @if (!string.IsNullOrWhiteSpace(Model.Product.ProductDescription))
+                {
+                    <div class="mb-4">
+                        <h5 class="fw-semibold">Mô tả</h5>
+                        <p class="text-muted mb-0">@Model.Product.ProductDescription</p>
+                    </div>
+                }
+
+                <form asp-controller="Cart" asp-action="Add" method="get" class="row g-3 align-items-end">
+                    <input type="hidden" name="id" value="@Model.Product.ProductID" />
+                    <input type="hidden" name="returnUrl" value="@returnUrl" />
+                    <div class="col-sm-4">
+                        <label class="form-label">Số lượng</label>
+                        <input type="number" name="quantity" value="1" min="1" class="form-control" />
+                    </div>
+                    <div class="col-sm-8 d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="bi bi-cart-plus me-1"></i> Thêm vào giỏ hàng
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.Attributes.Any())
+{
+    <div class="card border-0 shadow-sm rounded-4 mt-4">
+        <div class="card-body">
+            <h4 class="fw-bold mb-3">Thuộc tính sản phẩm</h4>
+            <div class="table-responsive">
+                <table class="table align-middle mb-0">
+                    <tbody>
+                        @foreach (var attr in Model.Attributes)
+                        {
+                            <tr>
+                                <th class="text-nowrap" style="width:220px;">@attr.AttributeName</th>
+                                <td>@attr.AttributeValue</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}

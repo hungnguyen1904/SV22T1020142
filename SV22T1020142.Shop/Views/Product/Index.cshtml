@@ -1,0 +1,125 @@
+﻿@model SV22T1020142.Shop.Models.ProductListViewModel
+
+@{
+    ViewData["Title"] = "Sản phẩm";
+    var returnUrl = Context.Request.Path + Context.Request.QueryString;
+}
+
+<div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
+    <div>
+        <h2 class="fw-bold mb-1">Danh mục mặt hàng</h2>
+        <p class="text-muted mb-0">Tìm theo tên, loại hàng và khoảng giá.</p>
+    </div>
+    <a asp-controller="Cart" asp-action="Index" class="btn btn-outline-primary">
+        <i class="bi bi-cart3 me-1"></i> Xem giỏ hàng
+    </a>
+</div>
+
+<form method="get" asp-controller="Product" asp-action="Index" class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body row g-3">
+        <div class="col-lg-4">
+            <label class="form-label">Tên hàng</label>
+            <input type="text" name="searchValue" value="@Model.SearchValue" class="form-control" placeholder="Ví dụ: áo sơ mi, điện thoại..." />
+        </div>
+        <div class="col-lg-3">
+            <label class="form-label">Loại hàng</label>
+            <select name="categoryID" class="form-select">
+                <option value="0">Tất cả loại hàng</option>
+                @foreach (var category in Model.Categories)
+                {
+                    if (category.CategoryID == Model.CategoryID)
+                    {
+                        <option value="@category.CategoryID" selected>@category.CategoryName</option>
+                    }
+                    else
+                    {
+                        <option value="@category.CategoryID">@category.CategoryName</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-lg-2">
+            <label class="form-label">Giá từ</label>
+            <input type="number" name="minPrice" value="@Model.MinPrice" min="0" step="1000" class="form-control" placeholder="0" />
+        </div>
+        <div class="col-lg-2">
+            <label class="form-label">Đến giá</label>
+            <input type="number" name="maxPrice" value="@Model.MaxPrice" min="0" step="1000" class="form-control" placeholder="0" />
+        </div>
+        <div class="col-lg-1 d-grid">
+            <label class="form-label d-none d-lg-block">&nbsp;</label>
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+    </div>
+</form>
+
+@if (Model.Products.DataItems.Any())
+{
+    <div class="row g-4">
+        @foreach (var item in Model.Products.DataItems)
+        {
+            <div class="col-md-4 col-xl-3">
+                <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden">
+                    <img src="@(string.IsNullOrWhiteSpace(item.Photo) ? "/images/no-image.png" : item.Photo)"
+                         class="card-img-top p-3 bg-light"
+                         style="height:220px; object-fit:contain;"
+                         alt="@item.ProductName"
+                         onerror="this.src='/images/no-image.png'" />
+
+                    <div class="card-body d-flex flex-column">
+                        <div class="small text-muted mb-2">Mã hàng: #@item.ProductID</div>
+                        <h5 class="card-title fw-semibold">@item.ProductName</h5>
+                        <div class="text-danger fw-bold fs-5 mb-3">@item.Price.ToString("N0") đ</div>
+
+                        <div class="mt-auto d-grid gap-2">
+                            <a asp-controller="Product"
+                               asp-action="Details"
+                               asp-route-id="@item.ProductID"
+                               class="btn btn-outline-primary">
+                                Xem chi tiết
+                            </a>
+                            <a asp-controller="Cart"
+                               asp-action="Add"
+                               asp-route-id="@item.ProductID"
+                               asp-route-returnUrl="@returnUrl"
+                               class="btn btn-primary">
+                                Thêm vào giỏ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (Model.Products.PageCount > 1)
+    {
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                @for (int i = 1; i <= Model.Products.PageCount; i++)
+                {
+                    <li class="page-item @(i == Model.Products.Page ? "active" : "")">
+                        <a class="page-link"
+                           asp-controller="Product"
+                           asp-action="Index"
+                           asp-route-page="@i"
+                           asp-route-searchValue="@Model.SearchValue"
+                           asp-route-categoryID="@Model.CategoryID"
+                           asp-route-minPrice="@Model.MinPrice"
+                           asp-route-maxPrice="@Model.MaxPrice">
+                            @i
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+}
+else
+{
+    <div class="alert alert-warning rounded-4">
+        Không tìm thấy mặt hàng phù hợp với điều kiện tìm kiếm.
+    </div>
+}

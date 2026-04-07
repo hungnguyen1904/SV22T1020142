@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Lập đơn hàng - Chọn sản phẩm";
+}
+<div class="card">
+    <div class="card-header fw-bold">Bước 1: Tìm mặt hàng</div>
+    <div class="card-body">
+
+        <div class="input-group mb-3">
+            <input class="form-control" placeholder="Nhập tên mặt hàng">
+            <button class="btn btn-primary">
+                <i class="bi bi-search"></i> Tìm
+            </button>
+        </div>
+
+        <table class="table table-bordered">
+            <tr>
+                <th>Tên mặt hàng</th>
+                <th>Giá</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Áo thun</td>
+                <td>120,000</td>
+                <td>
+                    <a href="~/Order/Index?add=1"
+                       class="btn btn-sm btn-success">
+                        <i class="bi bi-cart-plus"></i> Thêm
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+        <a href="~/Order/Cart" class="btn btn-primary mt-2">
+            Tiếp tục
+        </a>
+    </div>
+</div>

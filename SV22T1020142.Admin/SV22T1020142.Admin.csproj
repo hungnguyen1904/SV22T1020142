@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\ChangePassword.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Category\Delete.cshtml" />
+    <None Include="Views\Category\Edit.cshtml" />
+    <None Include="Views\Category\Index.cshtml" />
+    <None Include="Views\Customer\ChangePassword.cshtml" />
+    <None Include="Views\Customer\Delete.cshtml" />
+    <None Include="Views\Customer\Edit.cshtml" />
+    <None Include="Views\Customer\Index.cshtml" />
+    <None Include="Views\Employee\ChangePassword.cshtml" />
+    <None Include="Views\Employee\ChangeRole.cshtml" />
+    <None Include="Views\Employee\Delete.cshtml" />
+    <None Include="Views\Employee\Edit.cshtml" />
+    <None Include="Views\Employee\Index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Order\Create.cshtml" />
+    <None Include="Views\Order\Delete.cshtml" />
+    <None Include="Views\Order\DeleteCartItem.cshtml" />
+    <None Include="Views\Order\Detail.cshtml" />
+    <None Include="Views\Order\Edit.cshtml" />
+    <None Include="Views\Order\EditCartItem.cshtml" />
+    <None Include="Views\Order\Index.cshtml" />
+    <None Include="Views\Order\Search.cshtml" />
+    <None Include="Views\Product\Delete.cshtml" />
+    <None Include="Views\Product\DeleteAttributes.cshtml" />
+    <None Include="Views\Product\DeletePhotos.cshtml" />
+    <None Include="Views\Product\Edit.cshtml" />
+    <None Include="Views\Product\EditAttributes.cshtml" />
+    <None Include="Views\Product\EditPhotos.cshtml" />
+    <None Include="Views\Product\Index.cshtml" />
+    <None Include="Views\Product\ListAttributes.cshtml" />
+    <None Include="Views\Product\ListPhotos.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Footer.cshtml" />
+    <None Include="Views\Shared\_Header.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_SideBar.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Shipper\Delete.cshtml" />
+    <None Include="Views\Shipper\Edit.cshtml" />
+    <None Include="Views\Shipper\Index.cshtml" />
+    <None Include="Views\Supplier\Delete.cshtml" />
+    <None Include="Views\Supplier\Edit.cshtml" />
+    <None Include="Views\Supplier\Index.cshtml" />
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.23" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.23" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.23" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SV22T1020142.BusinessLayers\SV22T1020142.BusinessLayers.csproj" />
+    <ProjectReference Include="..\SV22T1020142.DataLayers\SV22T1020142.DataLayers.csproj" />
+    <ProjectReference Include="..\SV22T1020142.Models\SV22T1020142.Models.csproj" />
+  </ItemGroup>
+
+</Project>

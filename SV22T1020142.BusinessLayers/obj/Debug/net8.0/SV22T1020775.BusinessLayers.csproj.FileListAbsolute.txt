@@ -1,0 +1,51 @@
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.BusinessLayers.deps.json
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.BusinessLayers.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.BusinessLayers.pdb
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.DataLayers.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.Models.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.DataLayers.pdb
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.Models.pdb
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.csproj.AssemblyReference.cache
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.AssemblyInfoInputs.cache
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.AssemblyInfo.cs
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.csproj.CoreCompileInputs.cache
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T102.593E8084.Up2Date
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/refint/SV22T1020775.BusinessLayers.dll
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.pdb
+C:/Users/HUYEN/Downloads/SV22T1020775/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/ref/SV22T1020775.BusinessLayers.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.BusinessLayers.deps.json
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.BusinessLayers.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.BusinessLayers.pdb
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.DataLayers.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.Models.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.DataLayers.pdb
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/bin/Debug/net8.0/SV22T1020775.Models.pdb
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.csproj.AssemblyReference.cache
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.AssemblyInfoInputs.cache
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.AssemblyInfo.cs
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T102.593E8084.Up2Date
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/refint/SV22T1020775.BusinessLayers.dll
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/SV22T1020775.BusinessLayers.pdb
+/Users/macbookpro/Downloads/SV22T1020775/SV22T1020775.BusinessLayers/obj/Debug/net8.0/ref/SV22T1020775.BusinessLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.BusinessLayers.deps.json
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.BusinessLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.BusinessLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.DataLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\bin\Debug\net8.0\SV22T1020775.Models.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.csproj.AssemblyReference.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.AssemblyInfoInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.AssemblyInfo.cs
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T102.593E8084.Up2Date
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\refint\SV22T1020775.BusinessLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\SV22T1020775.BusinessLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020775.BusinessLayers\obj\Debug\net8.0\ref\SV22T1020775.BusinessLayers.dll

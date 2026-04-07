@@ -1,0 +1,10 @@
+﻿@model SV22T1020142.Shop.Models.CartSummaryViewModel?
+
+<a asp-controller="Cart" asp-action="Index" class="btn btn-outline-secondary rounded-pill">
+    <i class="bi bi-cart3"></i>
+    Giỏ hàng
+    @if (Model?.Count > 0)
+    {
+        <span class="badge bg-danger ms-1">@Model.Count</span>
+    }
+</a>

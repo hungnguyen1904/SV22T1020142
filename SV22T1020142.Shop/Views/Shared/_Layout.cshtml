@@ -1,0 +1,163 @@
+﻿@using System.Text.Json
+@using SV22T1020142.Shop.AppCodes
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SV22T1020142.Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SV22T1020142.Shop.styles.css" asp-append-version="true" />
+
+    <style>
+        #toastContainer {
+            position: fixed;
+            right: 1rem;
+            bottom: 1rem;
+            z-index: 1080;
+        }
+    </style>
+</head>
+<body>
+    @{
+        var currentCustomer = CustomerSessionHelper.GetLoggedInCustomer(Context);
+        var cartCount = CartHelper.GetCart(Context).Sum(x => x.Quantity);
+    }
+    <header class="bg-white border-bottom shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Product" asp-action="Index">
+                <img src="~/images/logo.png" alt="logo" style="height:36px;margin-right:8px;" onerror="this.style.display='none'" />
+                <span class="fw-bold">SV22T1020142</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <form class="d-flex ms-3 flex-fill" asp-controller="Product" asp-action="Index" method="get">
+                    <input class="form-control me-2" type="search" placeholder="Tìm sản phẩm..." name="searchValue" aria-label="Search" value="@(Context.Request.Query["searchValue"])" />
+                    <button class="btn btn-outline-primary" type="submit">
+                        <i class="bi bi-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Product" asp-action="Index">Sản phẩm</a>
+                    </li>
+                    @if (currentCustomer != null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Orders" asp-action="MyOrders">Đơn hàng của tôi</a>
+                        </li>
+                    }
+                    <li class="nav-item">
+                        <a class="nav-link d-inline-flex align-items-center" asp-controller="Cart" asp-action="Index">
+                            <i class="bi bi-cart3 me-1" aria-hidden="true"></i> Giỏ hàng
+                            @if (cartCount > 0)
+                            {
+                                <span class="badge bg-danger ms-2">@cartCount</span>
+                            }
+                        </a>
+                    </li>
+                    @if (currentCustomer == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary ms-lg-2" asp-controller="Account" asp-action="Register">Đăng ký</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item dropdown ms-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                @currentCustomer.CustomerName
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Thông tin cá nhân</a></li>
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="ChangePassword">Đổi mật khẩu</a></li>
+                                <li><a class="dropdown-item" asp-controller="Orders" asp-action="MyOrders">Lịch sử mua hàng</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item text-danger" asp-controller="Account" asp-action="Logout">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-4">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>&copy; 2026 - SV22T1020142.Shop</div>
+            <div>
+                <a class="text-light me-3" asp-controller="Home" asp-action="Privacy">
+                    <i class="bi bi-shield-check" aria-hidden="true"></i> Chính sách
+                </a>
+                <a class="text-light" href="#">
+                    <i class="bi bi-envelope" aria-hidden="true"></i> Liên hệ
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toastContainer"></div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        function showToast(message, type) {
+            var toastId = 't' + Date.now();
+            var bg = type === 'success' ? 'bg-success text-white' : (type === 'error' ? 'bg-danger text-white' : 'bg-secondary text-white');
+            var html = `\n<div id="${toastId}" class="toast ${bg} p-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">\n  <div class="toast-body">${message}</div>\n</div>`;
+            var container = document.getElementById('toastContainer');
+            container.insertAdjacentHTML('beforeend', html);
+            var el = document.getElementById(toastId);
+            var bs = new bootstrap.Toast(el);
+            bs.show();
+            el.addEventListener('hidden.bs.toast', function () { el.remove(); });
+        }
+    </script>
+
+    @if (TempData.ContainsKey("Error"))
+    {
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var msg = @Html.Raw(JsonSerializer.Serialize(TempData["Error"]?.ToString()));
+                showToast(msg, 'error');
+            });
+        </script>
+    }
+
+    @if (TempData.ContainsKey("Success"))
+    {
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var msg = @Html.Raw(JsonSerializer.Serialize(TempData["Success"]?.ToString()));
+                showToast(msg, 'success');
+            });
+        </script>
+    }
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

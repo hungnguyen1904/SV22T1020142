@@ -1,0 +1,60 @@
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.deps.json
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.AssemblyReference.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfoInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfo.cs
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T102.F561908A.Up2Date
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\refint\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020775 2\SV22T1020775\SV22T1020142.DataLayers\obj\Debug\net8.0\ref\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.deps.json
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.AssemblyReference.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfoInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfo.cs
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T102.F561908A.Up2Date
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\refint\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\Downloads\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\ref\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.deps.json
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.pdb
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.AssemblyReference.cache
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfoInputs.cache
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfo.cs
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T102.F561908A.Up2Date
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\refint\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\OneDrive\Documents\New project\SV22T1020142ok\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\ref\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.deps.json
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\bin\Debug\net8.0\SV22T1020142.Models.pdb
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.AssemblyReference.cache
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfoInputs.cache
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.AssemblyInfo.cs
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T102.F561908A.Up2Date
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\refint\SV22T1020142.DataLayers.dll
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\SV22T1020142.DataLayers.pdb
+C:\Users\LAPTOP HP\OneDrive\Documents\SV22T1020142\SV22T1020142.DataLayers\obj\Debug\net8.0\ref\SV22T1020142.DataLayers.dll

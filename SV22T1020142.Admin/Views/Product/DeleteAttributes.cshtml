@@ -1,0 +1,25 @@
+﻿<div class="container-fluid mt-3">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h3 class="card-title">Xác nhận xóa thuộc tính</h3>
+        </div>
+        <div class="card-body">
+            <p class="text-danger fw-bold">Bạn có chắc chắn muốn xóa thuộc tính này?</p>
+            <table class="table table-bordered">
+                <tr>
+                    <th width="30%">Tên thuộc tính</th>
+                    <td>Màu sắc</td>
+                </tr>
+                <tr>
+                    <th>Giá trị</th>
+                    <td>Đỏ</td>
+                </tr>
+            </table>
+            <form method="post" class="d-flex gap-2">
+                <button class="btn btn-danger">Xóa</button>
+                <a href="~/Product/ListAttributes/@ViewBag.ProductId"
+                   class="btn btn-secondary">Bỏ qua</a>
+            </form>
+        </div>
+    </div>
+</div>
